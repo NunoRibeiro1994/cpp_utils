@@ -7,6 +7,10 @@
 #include <utility>
 #include "storage/matrix.hpp"
 
+#ifndef M_PI
+    #define M_PI 3.14159265358979323846
+#endif
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // templated header-only functions for numeric operations
 // provides std::matrix bulk and element-wise arithmetic operator overloads (+-/*) and matrix presets (zero,ones,ident,random,etc);
